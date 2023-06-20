@@ -12,7 +12,7 @@ public class DeadZoneScript : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             PlayerScript player = other.gameObject.GetComponent<PlayerScript>();
-            player.MoveStartPos();
+            //player.MoveStartPos();
         }
         else
         {

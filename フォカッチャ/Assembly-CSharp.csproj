@@ -56,21 +56,37 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\SE\RaycastFootstep2.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\Scripts\GameStart.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringManager.cs" />
+    <Compile Include="Assets\Scripts\ItemManager.cs" />
+    <Compile Include="Assets\Scripts\QuitGame.cs" />
+    <Compile Include="Assets\Scripts\BChamp.cs" />
     <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Scripts\ItemDataBase.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringBone.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\GrowScript.cs" />
+    <Compile Include="Assets\SE\RaycastFootstep.cs" />
     <Compile Include="Assets\UnityChan\Scripts\RandomWind.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IKLookAt.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IKCtrlRightHand.cs" />
+    <Compile Include="Assets\Scripts\BaseCampAreaScript.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+    <Compile Include="Assets\Scripts\DeadZoneScript.cs" />
+    <Compile Include="Assets\SE\BCamp.cs" />
+    <Compile Include="Assets\SE\SE.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlinkforSD.cs" />
+    <Compile Include="Assets\Scripts\GoalScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\BTitle.cs" />
+    <Compile Include="Assets\Scripts\Champ.cs" />
+    <Compile Include="Assets\Scripts\PopUpScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\README_SD_UnityChan_en.txt" />
